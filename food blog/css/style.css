@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* nav-top */
+.nav-top{
+    padding-top:30px;
+    padding-bottom:50px;
+    margin-left:20%;
+}
+.logo img{
+    width:70%;
+}
+.nav-bar{
+    display:flex;
+    align-items: center;
+}
+.nav-items{
+   
+    margin-left:180px;
+}
+.nav-items a{
+text-decoration: none;
+color:maroon;
+font-size: 20px;
+/* margin-right:60px; */
+padding:40px;
+}
+.nav-items a:hover{
+    border-bottom: 2px solid maroon;
+}
+.social-icons{
+    margin-left:20px;
+}
+.social-icons i{
+    padding-right:30px;
+    color:maroon;
+}
+.social-icons i:hover{
+    opacity:.8
+}
+/* container main */
+.main{
+    margin-left:40%;
+}
+.container{
+    display:flex;
+    width:50%;
+}
+.content1{
+    padding-top:15px;
+    padding-right:10px;
+}
+.content button{
+    background: transparent;
+    border:1px solid maroon;
+    padding:20px;
+    width:95%;
+    text-align: left;
+    text-transform: uppercase;
+    color:maroon;
+    
+}
+.content a{
+    text-decoration: none;
+    color:maroon;
+}
+/* .content1 a:hover{
+    color:white;
+} */
+.content button:hover{
+    background-color: maroon;
+    color:white;
+    cursor:pointer;
+}
+.content button:hover a{
+    color:white;
+}
+.content button{
+    background: transparent;
+    border:1px solid maroon;
+    padding:20px;
+    width:95%;
+    text-align: left;
+    text-transform: uppercase;
+    color:maroon;
+    
+}
+
+.content3{
+    padding-top:15px;
+padding-right:10px;
+
+
+}
+.content p{
+    margin-bottom:15px;
+    margin-top:10px;
+    font-size: 20px;
+}
+.content h2{
+    font-size: 35px;
+    color:maroon;
+}
+.content h2:hover{
+    cursor:pointer;
+     opacity: .8;
+}
+.blogs{
+    border-bottom: 1px solid grey;
+    width:125%;
+   
+}
+.blogs button{
+    margin-top:60px;
+    margin-bottom: 50px;
+    width:100%;
+    padding:20px;
+    background-color: transparent;
+    border:1px solid maroon;
+    font-size: 25px;
+    text-align: right;
+}
+.blogs a{
+    text-decoration: none;
+    color:maroon;
+}
+.blogs button:hover a{
+    color:white;
+}
+.blogs button:hover{
+    cursor: pointer;
+background-color: maroon;
+
+}
+
+.text{
+    text-align: left;
+    margin-left:20%;
+    font-size: 25px;
+    padding:20px;
+    color:maroon;
+
+}
+.content5{
+    padding-top:20px;
+    padding-right:10px;
+}
+.content5 h3{
+    font-size:30px;
+    color:maroon;
+    padding:10px;
+}
+.content6 h3{
+    font-size:30px;
+    color:maroon;
+    padding:10px;
+}
+.content6{
+    padding-top:17.5px;
+}
+.content5 h3:hover{
+    opacity:.8;
+    cursor: pointer;
+}
+.content6 h3:hover{
+    opacity:.8;
+    cursor: pointer;
+}
+
+.content img:hover{
+    opacity:.4;
+    cursor: pointer;
+}
+.side-nav{
+    margin-left:25%;
+    width:50%;
+}
+
+
+.imgs{
+    display:grid;
+    width:10%;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px; 
+}
+.imgs img:hover{
+    cursor:pointer;
+    opacity:.4
+
+}
+.side-nav{
+    width:30%;
+}
+.grow{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.icons{
+    margin-left: 50px;
+    padding:30px;
+}
+.icons i{
+    color:maroon;
+    font-size: 20px;
+  
+    padding-right:20px;
+
+}
+
+.best-book{
+  margin-top:40px;
+  margin-bottom:60px;
+}
+.best-book img{
+   
+    width:70%;
+}
+.side-nav h2{
+    color:maroon;
+    font-size: 30px;
+    padding:20px;
+}
+.side-nav h2:hover{
+    cursor:pointer;
+    opacity:.8;
+}
+.recip{
+    width:250%;
+    padding:30px;
+}
+.recip h3{
+    font-size: 35px;
+    color:maroon;
+    margin-left:30px;
+}
+.recip h3:hover{
+    cursor:pointer;
+    opacity:.8;
+}
+.about h3{
+  color:maroon;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 25px;
+}
+.about h3:hover{
+    cursor: pointer;
+    opacity:.8;
+}
+.about-1 a{
+    text-decoration: none;
+    color:maroon;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.search{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.search input[type=text]{
+    padding:6px;
+    margin-top:9px;
+    font-size:17px;
+    border:1px solid grey;
+}
+ .search button {
+   
+   padding:9px 10px;
+   margin-left:0px;
+    margin-top: 8px;
+    /* margin-right: 16px; */
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
